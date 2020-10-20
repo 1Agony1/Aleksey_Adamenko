@@ -1,0 +1,107 @@
+
+.container{
+    width:1170px;
+    margin:0 auto;
+  }
+.box {
+    width:100%;
+    height:300px;
+    text-align:center;
+    margin-bottom:40px;
+  }
+.background{
+    background:#3F8C91;
+  }
+.background-image{
+  background-image:url(img/pict.jpg);
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center top;
+}
+.background-image2{
+  background:url(img/pict.jpg) no-repeat;
+  background-size: cover;
+  background-position:center top;
+}
+.background-attachment {
+  background-image:url(img/pict.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.background-position{
+  background:url(img/pict.jpg), url(img/star.jpg), url(img/star.jpg);
+  background-position: center, right, left;
+  background-size:30%, 10%, 10%;
+  background-repeat: no-repeat;
+}
+h2{
+  font-size:25px;
+  text-align: center;
+}
+.inone{
+  margin-bottom: 20px;
+}
+.text{
+  color:red;
+  text-align: center;
+}
+.text2{
+  color:blue;
+  text-align: left;
+}
+.text3{
+  text-align: right;
+  color:darkgreen;
+}
+.text4{
+  color:lightgreen;
+  text-align: justify;
+}
+.text5{
+  color:magenta;
+  text-decoration: none;
+}
+.text5:hover{
+  text-decoration: underline;
+}
+.text6{
+  color:pink;
+  text-decoration: overline;
+}
+.text7{
+  color:orange;
+  text-decoration: line-through;
+}
+.text8{
+  color:brown;
+  text-transform: capitalize;
+}
+.text9{
+  color:purple;
+  text-transform: lowercase;
+}
+.text10{
+  color:black;
+  text-transform: uppercase;
+}
+.text11{
+  color:skyblue;
+  text-indent: 15px;
+}
+/*div > p{
+  background:yellow;
+}
+Стили задаются для всех p если их родитель div больше на ранг p
+*/
+/*
+div + p + p + p{
+  background:yellow;
+}
+Стили задаются для третьего по счету p после первого div
+*/
+/*
+div ~ p{
+  background:yellow;
+}
+Сравнивается несмежным селектором который является div ~ p, Это означает что найдеите p. На последующие div на пути не работают стили
+*/

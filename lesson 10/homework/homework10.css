@@ -1,0 +1,26 @@
+body {
+  background: url(jpg/background.jpg) no-repeat;
+  background-size:cover;
+}
+.div1 {
+  width: 50%;
+}
+.div1 h2{
+  text-align: center;
+  text-transform:uppercase;
+  color:white;
+}
+.div1 p{
+  text-transform: lowercase;
+  text-indent: 20px;
+  color:white;
+}
+.div2 {
+  width:50%;
+}
+.div2 input {
+    width:100%
+}
+.div2 textarea{
+  width:100%;
+}
