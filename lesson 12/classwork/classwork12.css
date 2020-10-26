@@ -1,0 +1,10 @@
+.main_img{
+  position: relative;
+}
+.text_main{
+  color: white;
+ position: absolute;
+ font-size: 30px;
+ bottom:40px;
+ left:100px;
+}
