@@ -1,0 +1,68 @@
+.container div{
+  padding: 10px 0px 0px 10px;
+}
+.block1{
+  width: 210px;
+  height: 120px;
+  position: static;
+  background: lightgray;
+  border:black solid 1px;
+}
+.block2{
+  width: 420px;
+  height: 120px;
+  position: relative;
+  background: lightgray;
+  border:black solid 1px;
+  left:30px;
+  top:25px;
+}
+.block3{
+  position: absolute;
+  background: lightgray;
+  border:black solid 1px;
+  width: 210px;
+  height: 120px;
+  top:100px;
+  left:-15px;
+}
+.block4{
+  width: 280px;
+  height: 206px;
+  position: absolute;
+  background: lightgray;
+  border:black solid 1px;
+  margin-bottom: 20px;
+  top:115px;
+  right:3px;
+}
+.block5{
+  width: 210px;
+  height: 120px;
+  background: lightgray;
+  border:black solid 1px;
+  position: relative;
+  z-index: 1;
+  top:135px;
+  left:11px;
+}
+.block6{
+  width: 210px;
+  height: 120px;
+  background: lightgray;
+  border:black solid 1px;
+  position: relative;
+  top:70px;
+  left:40px;
+  z-index: 2;
+}
+.block7{
+  position: fixed;
+  background: black;
+  color:white;
+  height: 120px;
+  width:220px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

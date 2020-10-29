@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>block-inline</title>
+  </head>
+  <style media="screen">
+    *{
+      padding:0;
+      margin:0;
+    }
+    .block{
+      display:block;
+    }
+    .block div{
+      background:#3f51b5;
+    }
+    .block div,
+    .inline-block{
+      width:100px;
+      height:100px;
+      margin:5px;
+    }
+    .inline{
+      border:2px dotted black;
+    }
+    .inline div{
+      background:#17DBC3;
+      display:inline;
+      border:1px solid #000;
+      font-size:30px;
+    }
+    .inline-block div{
+      display:inline-block;
+      background:magenta;
+      heigh:100px;
+      width:100px;
+    }
+    .display_none{
+      display:none;
+    }
+    .visibility_hidden{
+      visibility:hidden;
+    }
+  </style>
+  <body>
+    <div class="parent">
+      <div class="container">
+        <h2>Block</h2>
+        <div class="block">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <h2>Inline</h2>
+        <div class="inline">
+          <div>Text</div>
+          <div>Text</div>
+          <div>Text</div>
+        </div>
+        <h2>Inline-block</h2>
+        <div class="inline-block">
+          <div>Text</div>
+          <div>Text</div>
+          <div>Text</div>
+        </div>
+        <h2>Visibility</h2>
+        <div class="block">
+          <div>Text</div>
+          <div class="display_none">Text</div>
+          <div class="visibility_hidden">Text</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

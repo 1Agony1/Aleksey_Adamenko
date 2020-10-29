@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>float</title>
+  </head>
+  <style media="screen">
+    .container{
+      width:400px;
+      margin:0 auto;
+    }
+    .container div{
+      margin: 5px;
+      width: 100px;
+      height: 100px;
+      border:solid 1px #000;
+    }
+    .float-left{
+      background: #385028;
+      float:left;
+    }
+    .float-right{
+      float:right;
+      background: #458da8
+    }
+    .clear{
+      clear: both;
+    }
+    .box{
+      background: #F0EB20;
+    }
+    .fl{
+      float:left;
+    }
+    .fr{
+      float:right;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="float-left">Left</div>
+      <div class="float-right">Right</div>
+      <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
+      <div class="clear"></div>
+      <div class="float-left">Left</div>
+      <div class="clear"></div>
+      <div class="float-right">Right</div>
+      <div class="clear"></div>
+      <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
+    </div>
+    <div class="container">
+      <div class="fl box">left</div>
+      <div class="fr box">right</div>
+      <div class="clear"></div>
+      <div class="fl box">left</div>
+      <div class="fr box">right</div>
+      <div class="clear"></div>
+      <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
+    </div>
+  </body>
+</html>
