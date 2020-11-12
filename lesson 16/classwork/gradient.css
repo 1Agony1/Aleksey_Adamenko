@@ -1,0 +1,58 @@
+div{
+  margin-bottom: 20px;
+}
+.grad1_leneynuy{
+  height: 200px;
+  background-image: linear-gradient(to top, #e01660,#e48ea2);
+}
+.grad2_leneynuy{
+  height: 200px;
+  background-image: linear-gradient(to left, #e01660,#e48ea2);
+}
+.grad3_leneynuy{
+  height: 200px;
+  background-image: linear-gradient(30deg, #e01660,#e48ea2);
+}
+.grad4_leneynuy{
+  height: 200px;
+  background-image: linear-gradient(45deg,#e01660,#e48ea2,white);
+}
+.grad5_leneynuy{
+  height: 200px;
+  background-image: repeating-linear-gradient(-45deg,pink,white 10px);
+}
+.grad_rad{
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(#5F5A5A 5%, #1D1919 15%, #BEBABB 60%);
+}
+.grad2_rad{
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(circle,#5F5A5A, #1D1919, #BEBABB);
+}
+.grad3_rad{
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(closest-side at 60% 55%,#5F5A5A, #1D1919, #BEBABB);
+}
+.grad4_rad{
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(farthest-side at 60% 55%,#5F5A5A, #1D1919, #BEBABB);
+}
+.grad5_rad{
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(closest-corner at 60% 55%,#5F5A5A, #1D1919, #BEBABB);
+}
+.grad6_rad{
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(farthest-corner at 60% 55%,#5F5A5A, #1D1919, #BEBABB);
+}
+.grad7_rad{
+  height: 200px;
+  width: 200px;
+  background: repeating-radial-gradient(#5F5A5A, #1D1919 10%, #BEBABB 15%);
+}

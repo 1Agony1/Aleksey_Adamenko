@@ -15,7 +15,7 @@ body{
 }
 .container{
   width: 1170px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 .fl{
 float: left;
@@ -99,6 +99,7 @@ ul.menu-main li.item-menu:nth-child(3) ul.child-menu-item{
   background: #2b4296;
   list-style-type: none;
   display: none;
+  z-index: 99999;
 }
 ul.menu-main li.item-menu:nth-child(3):hover ul.child-menu-item{
   display: block;
@@ -122,19 +123,18 @@ ul.menu-main li.item-menu ul.child-menu-item li a
 }
 .item h2{
   font-size: 40px;
-  margin-bottom: 20px;
+  margin:0px;
+  writing-mode:vertical-rl;
+
 }
-.text_slider{
-  font-size: 28px;
-  font-style: italic;
-}
+
 #home_slider.owl-carousel .owl-nav .owl-prev{
   background: url(img/arrow_prev.png) no-repeat;
   width: 8px;
   height: 13px;
   outline: none;
   position: absolute;
-  bottom:230px;
+  bottom:120px;
   left:16px;
 }
 #home_slider.owl-carousel .owl-nav .owl-next{
@@ -143,7 +143,7 @@ ul.menu-main li.item-menu ul.child-menu-item li a
   height: 13px;
   outline: none;
   position: absolute;
-  bottom:230px;
+  bottom:120px;
   right:16px;
 }
 #home_slider.owl-carousel .owl-nav .owl-prev:hover,
@@ -182,3 +182,20 @@ ul.menu-main li.item-menu ul.child-menu-item li a
   color: white;
   padding: 20px 20px;
 }
+table.table_main,
+th,
+td{
+	border:1px solid #000;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+  padding: 10px;
+	}
+table.table_main{
+	border-collapse:collapse;
+	}
+  tr:nth-child(even){
+  	background:gray;
+    color:white;
+  	}

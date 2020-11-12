@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div{
+  margin: 40px 10px;
+  font-size: 40px;
+}
+.shadow1{
+  text-shadow: 10px 28px rgba(0,0,0,0.5) ;
+}
+.shadow2
+{
+  text-shadow: 10px 28px 2px rgba(0,0,0,0.6) ;
+}
+.shadow3{
+  text-shadow: 5px 7px  3px rgba(255,0,0,0.7), -5px -7px 3px rgba(0, 0, 250, 0.8);
+}
+.shadow4{
+  text-shadow: -1px -1px gray, 1px 1px white;
+  color: #a08e3e;
+}
+.shadow5{
+  text-shadow: 1px 1px 3px gray, 1px 1px gray, -1px -1px 3px white, -1px -1px white;
+  color: #a08e3e;
+}
+.shadow6{
+  text-shadow: -1px 0 black, 0 -1px black, 0 1px black, 1px 0 black;
+  color:#a08e3e;
+}
+.blockshadow1{
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  border: 1px solid black;
+  box-shadow: 20px 30px gray;
+}
+.blockshadow2{
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  border: 1px solid black;
+  box-shadow: 20px 30px 10px gray;
+}
+.blockshadow3{
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  border: 1px solid black;
+  box-shadow: inset 5px 5px 10px blue, inset -5px -5px 10px red;
+}
+.blockgradient1{
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  background: linear-gradient(to right, red, blue 200px, white, red);
+}
+.blockgradient2{
+  width: 400px;
+  height: 210px;
+  border: 1px solid black;
+  background: linear-gradient(red, red 70px, white 70px, white 140px, red 140px);
+}
+.blockgradient3{
+  width: 400px;
+  height: 210px;
+  border: 1px solid black;
+  background: radial-gradient(circle closest-side, #a6dbf1, #3299f1);
+}
+.blockgradient4{
+  width: 400px;
+  height: 210px;
+  border: 1px solid black;
+  background: radial-gradient(circle closest-corner at 40px 50px, #a6dbf1, #3299f1);
+}
+.blockgradient5{
+  width: 400px;
+  height: 210px;
+  border: 1px solid black;
+  background: radial-gradient(circle closest-side, black 5px, white 25px, white 40px, green 50px);
+}

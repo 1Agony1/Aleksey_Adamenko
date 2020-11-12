@@ -1,0 +1,41 @@
+#container{
+  width: 1170px;
+  margin: 0 auto;
+}
+div{
+  margin-bottom: 20px;
+}
+.cons_radius{
+  background: #2771E7;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+}
+.cons_radius2{
+  border-radius: 100px;
+  background: #2771E7;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+}
+.cons_radius3{
+  background: #2771E7;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 20px;
+}
+.cons_radius4{
+  background: #2771E7;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border-bottom:200px solid #2771E7;
+  border-left:150px solid transparent;
+  border-right:80px solid transparent;
+}
